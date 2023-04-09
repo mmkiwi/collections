@@ -311,13 +311,11 @@ public abstract class ImmutableKeyedCollection<TKey, TItem> : IEquatable<Immutab
 
     bool IList.IsReadOnly => true;
 
-    int ICollection<TItem>.Count => throw new NotImplementedException();
+    bool IList.IsFixedSize => true;
 
-    bool IList.IsFixedSize => throw new NotImplementedException();
+    bool ICollection.IsSynchronized => true;
 
-    bool ICollection.IsSynchronized => throw new NotImplementedException();
-
-    object ICollection.SyncRoot => throw new NotImplementedException();
+    object ICollection.SyncRoot => throw new NotSupportedException();
 
     TItem IList<TItem>.this[int index] { get => this[index]; set => throw new NotSupportedException(); }
     object? IList.this[int index] { get => this[index]; set => throw new NotSupportedException(); }
