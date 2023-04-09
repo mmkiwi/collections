@@ -16,7 +16,7 @@
   </PropertyGroup>
   <PropertyGroup>
     <PackageId>MMKiwi.Collections</PackageId>
-    <Version>0.1.0-beta</Version>
+    <Version>0.1.0</Version>
     <Authors>Micah Makaiwi</Authors>
     <Product>MMKiwi.Collections</Product>
     <Title>Miscellaneous Collection Classes</Title>
