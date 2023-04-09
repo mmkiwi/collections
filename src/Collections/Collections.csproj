@@ -16,7 +16,7 @@
   </PropertyGroup>
   <PropertyGroup>
     <PackageId>MMKiwi.Collections</PackageId>
-    <Version>0.1.1</Version>
+    <Version>0.2.0</Version>
     <Authors>Micah Makaiwi</Authors>
     <Product>MMKiwi.Collections</Product>
     <Title>Miscellaneous Collection Classes</Title>
@@ -30,6 +30,7 @@
     <Copyright>Copyright Micah Makaiwi 2022</Copyright>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <AssemblyName>MMKiwi.Collections</AssemblyName>
   </PropertyGroup>
   <ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.0'">
     <PackageReference Include="PolySharp" Version="1.13.1">
